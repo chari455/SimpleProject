@@ -4,22 +4,7 @@
   <artifactId>simpleproject</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>  
-  
-  <properties>
-		<spring.version>3.2.13.RELEASE</spring.version>
-	</properties>
-
-	<dependencies>
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-webmvc</artifactId>
-			<version>${spring.version}</version>
-		</dependency>
-  
-
-
-<dependencies>
-	
+  <dependencies>
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>servlet-api</artifactId>
@@ -31,7 +16,5 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>3.2.13.RELEASE</version>
 		</dependency>
-		
-
 	</dependencies>
 </project>
